@@ -71,7 +71,7 @@ video {
 }
 
 .sobre img{
-  border-radius: 300px; 
+  border-radius: 200px; 
   border: 2px solid rgb(0, 0, 0);
 }
 .informacao{
@@ -254,6 +254,6 @@ body.dark header a:hover {
 
 
 body.dark .sobre{
-    background: linear-gradient(to top, #264c9c, #0f172a);
+    background: linear-gradient(to top, #264b9c54, #0f172a);
   color: #ffffff;
 }

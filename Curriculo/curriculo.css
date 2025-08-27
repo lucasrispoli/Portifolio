@@ -1,3 +1,10 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  text-align: center;
+  padding: 20px;
+}
+
 header{
   height: 50px;
   margin-top: -30px;
@@ -24,13 +31,6 @@ li a {
 header a:hover {
   color: #464646;      
   transform: scale(1.9);
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: #000000;
-  text-align: center;
-  padding: 20px;
 }
 
 embed {

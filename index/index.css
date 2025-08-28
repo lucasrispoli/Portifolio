@@ -10,6 +10,7 @@ body{
 
 }
 header {
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   position: fixed;
   margin-top: -0px;
   left: 0;
@@ -37,7 +38,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #ccc;
+  color: #a5a4a4;
   transform: scale(1.1);
 }
 video {
@@ -64,7 +65,7 @@ video {
   flex-direction: column; 
   align-items: center;    
   gap: 10px;               
-  font-family: 'Lucida Sans', sans-serif;
+font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   height: 500px;
   border-radius: 5px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
@@ -73,6 +74,10 @@ video {
 .sobre img{
   border-radius: 200px; 
   border: 2px solid rgb(0, 0, 0);
+}
+.sobre img:hover{
+    transform: scale(1.04);
+      border-radius: 180px; 
 }
 .informacao{
       transition: .5s ;
@@ -97,23 +102,26 @@ video {
     margin-left: 30px;
   }
   .card {
-        transition: .5s ;
-    background-color: #e2e8f0;
+    background: linear-gradient(to top, #3d6ad471, #5e8efd);
+   transition: .5s ;
     display: flex;
     flex-direction: column; 
     align-items: center;    
     padding: 10px 15px;
     gap: 10px;               
     font-size: 17px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     width: 380px;
     height: 380px;
-    border-radius: 3px;
+    border-radius: 30px;
     box-shadow: 0 2px 6px rgba(255, 253, 253, 0.2);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-    text-align: center;     
+    text-align: center;    
 }
-
+.card:hover{
+    transform: scale(1.04);
+      border-radius: 23px; 
+}
   .card img {
         transition: .5s ;
     margin-top: 50px;
@@ -134,9 +142,10 @@ video {
     margin-top: 20px;
     margin-left: 30px;
   }
-  .informacao2 h3{
-        transition: .5s ;
-    margin-top: 25px;
+
+.informacao2 h3{
+transition: .5s ;
+margin-top: 25px;
 font-size: 25px;
 margin-left: 60px;
 color: #ffffff;
@@ -153,10 +162,14 @@ color: #ffffff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 380px;
     height: auto;
-    border-radius: 3px;
+    border-radius: 30px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.2);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     text-align: center;     
+}
+.card2:hover{
+    transform: scale(1.04);
+      border-radius: 33px; 
 }
   .cards2 img {
     margin-top: 50px;
@@ -180,30 +193,31 @@ color: #ffffff;
     height: 250px;
   }
   .contatos{
+    text-align: center;
+    border: solid#000000;
       transition: .5s ;
-    margin-left: 500px;
     list-style: none;
-    display: flex;
     gap: 15px;             
   }
-  footer img{
+  footer img{  
+    margin-left: 35px;
     text-align: center;
-    padding-top: 86px ;
-    min-height: 100px;
-    min-width: 100px;
-    max-width: 100px;
-    max-width: 100px;
-    border-bottom: 3px solid #707070;
-
+    margin-top: 55px;
+    min-height: 70px;
+    min-width: 70px;
+    max-width: 70px;
+    max-width: 70px;
   }
-  footer h4{
-        transition: .5s ;
-    margin-top: 15px;
-    margin-left: -90px;
-    font-size: 29px;
-    color: #ffffff;
-  }
+  footer img:hover {
+  color: #a5a4a4;
+  transform: scale(1.05);
+}
 
+.formulario{
+  display: inline-block;
+  text-align: right;
+  width: 80px;
+}
   /*dark mode*/
 .trilho {
   margin-right: 50px;

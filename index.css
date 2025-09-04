@@ -442,7 +442,6 @@ body.dark .sidebar a {
     height: auto;
   }
 
-  .cards,
   .cards2 {
     flex-direction: column;
     align-items: center;

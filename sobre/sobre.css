@@ -37,10 +37,40 @@ header a:hover {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 5%;
 }
+
 .sobre p{
   text-align: center;
   font-size: 23px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0 15%;
-  line-height: 1.9;
-  color: #000000;}
+  color: #000000;
+ margin: 2% 10% 2% 10%;
+}
+
+.sobre img{
+  width: 50%;
+  height: auto;
+  margin-top: 5%;
+}
+.sobre{
+align-items: center;
+}
+
+ footer{
+        transition: .5s ;
+    background: linear-gradient(to top, #052163, #0f172a);
+
+   margin-left: -10px;
+    margin-right: -8px;
+    margin-bottom: -10px;
+    border-bottom: solid#000000 10px;
+    border-top: solid#000000 10px;
+    height: 250px;
+  }
+    footer p{
+        text-align: left;
+        margin-left: 20px;
+        color: white;
+        font-size: 10px;
+        padding-top: 100px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }

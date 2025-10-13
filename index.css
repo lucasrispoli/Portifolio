@@ -112,7 +112,8 @@ video {
 }
 
 .sobre img {
-  border-radius: 200px;
+  border-radius: 250px;
+  width: 30rem;
   border: 2px solid rgb(0, 0, 0);
 }
 

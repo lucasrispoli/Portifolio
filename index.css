@@ -77,19 +77,21 @@ header {
 }
 
 video {
+  margin-left: auto;
+  margin-right: auto;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   z-index: -1;
   pointer-events: none;
 }
 
 .sobre {
-  margin-right: -20px;
-  margin-left: -20px;
+  margin-right: -16%;
+  margin-left: -5%;
   margin-top: -20px;
   position: relative;
   z-index: 1;
@@ -97,12 +99,12 @@ video {
   color: #ffffff;
   padding-top: 70px;
   text-align: center;
-  background: linear-gradient(to top, #0521634d, #0f172a);
+  background: linear-gradient(to top, #052163fb, #0f172a);
   flex-direction: column;
   align-items: center;
   gap: 10px;
   font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  height: 500px;
+  height: auto;
   border-radius: 5px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
@@ -112,16 +114,22 @@ video {
 }
 
 .sobre img {
-  border-radius: 250px;
-  width: 30rem;
-  border: 2px solid rgb(0, 0, 0);
+  width: 100%;
+  max-width: 400px; 
+  min-width: 250px;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid black;
 }
+
 
 .sobre img:hover {
   transform: scale(1.04);
 }
 
 .informacao {
+  margin-left: -3%;
+  margin-right: -8%;
   transition: .5s;
   border-bottom: 3px solid #006eff;
 }
@@ -160,8 +168,8 @@ video {
   gap: 10px;
   font-size: 20px;
   font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  width: 380px;
-  height: 380px;
+  width: auto;
+  height: 90%;
   border-radius: 30px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -194,6 +202,12 @@ video {
   padding: 0 20px;
 }
 
+.informacao2 {
+  margin-left: -11%;
+  margin-right: -9%;
+  transition: .5s;
+  border-bottom: 3px solid #006eff;
+}
 .informacao2 h3 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   transition: .5s;
@@ -379,8 +393,8 @@ form {
   flex-direction: column;
   align-items: center;
   gap: 15px;
-  max-width: 600px;
-  margin: auto;
+  max-width: 70%;
+  margin-left: auto;
   padding: 23px;
   border-radius: 10px;
   background: linear-gradient(to top, #031541, #0f172a);
@@ -395,14 +409,13 @@ label {
   align-items: flex-start;
 }
 
-input,
-textarea {
-  width: 100%;
-  padding: 10px;
+input,textarea {
+  width: 60%;
+  padding: 20px;
   margin-top: 5px;
-  border-radius: 5px;
+  border-radius: 0 30px;
   border: none;
-  font-size: 16px;
+  font-size: 18px;
   background-color: #e2e8f0;
   color: #000;
 }
